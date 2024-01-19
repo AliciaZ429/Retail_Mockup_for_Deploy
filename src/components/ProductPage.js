@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchProductData } from "../redux/actions/productActions";
 import LineChart from "./LineChart";
 import RetailSalesTable from "./RetailSalesTable";
+import "./ProductPage.css";
 
 const ProductPage = () => {
   const dispatch = useDispatch();

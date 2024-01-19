@@ -1,4 +1,10 @@
 {
+  "name": "retail-sales-mockup",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start"
+  },
   "dependencies": {
     "axios": "^1.6.5",
     "d3": "^7.8.5",
@@ -7,5 +13,21 @@
     "react-redux": "^9.1.0",
     "redux": "^5.0.1",
     "redux-thunk": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
