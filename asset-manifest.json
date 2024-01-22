@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AliciaZ429/Retail_Mockup_for_Deploy/static/css/main.4328e7cb.css",
+    "main.js": "/AliciaZ429/Retail_Mockup_for_Deploy/static/js/main.2ffac270.js",
+    "index.html": "/AliciaZ429/Retail_Mockup_for_Deploy/index.html",
+    "main.4328e7cb.css.map": "/AliciaZ429/Retail_Mockup_for_Deploy/static/css/main.4328e7cb.css.map",
+    "main.2ffac270.js.map": "/AliciaZ429/Retail_Mockup_for_Deploy/static/js/main.2ffac270.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4328e7cb.css",
+    "static/js/main.2ffac270.js"
+  ]
+}
