@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/AliciaZ429.github.io/Retail_Mockup_for_Deploy/static/css/main.4328e7cb.css",
-    "main.js": "/AliciaZ429.github.io/Retail_Mockup_for_Deploy/static/js/main.2ffac270.js",
-    "index.html": "/AliciaZ429.github.io/Retail_Mockup_for_Deploy/index.html",
-    "main.4328e7cb.css.map": "/AliciaZ429.github.io/Retail_Mockup_for_Deploy/static/css/main.4328e7cb.css.map",
-    "main.2ffac270.js.map": "/AliciaZ429.github.io/Retail_Mockup_for_Deploy/static/js/main.2ffac270.js.map"
+    "main.css": "/Retail_Mockup_for_Deploy/static/css/main.4328e7cb.css",
+    "main.js": "/Retail_Mockup_for_Deploy/static/js/main.2ffac270.js",
+    "index.html": "/Retail_Mockup_for_Deploy/index.html",
+    "main.4328e7cb.css.map": "/Retail_Mockup_for_Deploy/static/css/main.4328e7cb.css.map",
+    "main.2ffac270.js.map": "/Retail_Mockup_for_Deploy/static/js/main.2ffac270.js.map"
   },
   "entrypoints": [
     "static/css/main.4328e7cb.css",
