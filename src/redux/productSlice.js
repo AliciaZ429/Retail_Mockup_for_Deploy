@@ -6,7 +6,7 @@ export const fetchProductData = createAsyncThunk(
   "product/fetchProductData",
   async (_, { rejectWithValue }) => {
     try {
-      const response = await axios.get("/assets/data.json");
+      const response = await axios.get("assets/data.json");
       const data = response.data;
       return data;
     } catch (error) {

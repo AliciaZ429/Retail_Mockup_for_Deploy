@@ -2,8 +2,12 @@
   "name": "retail-sales-mockup",
   "version": "1.0.0",
   "main": "src/index.js",
+  "homepage": "https://AliciaZ429.github.io/Retail_Mockup_for_Deploy",
   "scripts": {
-    "start": "nodemon --exec react-scripts start"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
@@ -17,6 +21,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^6.1.1",
     "nodemon": "^3.0.3",
     "react-scripts": "^5.0.1"
   },

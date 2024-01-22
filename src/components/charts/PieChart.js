@@ -86,7 +86,7 @@ const PieChart = ({ salesData }) => {
           ).toFixed(1)}%`
       );
 
-    // Add chart title
+    // chart title
     svg
       .append("text")
       .attr("x", 0)
@@ -97,7 +97,7 @@ const PieChart = ({ salesData }) => {
       .text("Seasonal Retail Sales");
   };
 
-  // Function to determine the season based on the month
+  // Function to determine the season based on month
   const getSeason = (month) => {
     switch (month) {
       case 11:

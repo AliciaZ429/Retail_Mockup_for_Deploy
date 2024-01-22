@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Retail_Mockup_for_Deploy/static/css/main.4328e7cb.css",
+    "main.js": "/Retail_Mockup_for_Deploy/static/js/main.a3305f9b.js",
+    "index.html": "/Retail_Mockup_for_Deploy/index.html",
+    "main.4328e7cb.css.map": "/Retail_Mockup_for_Deploy/static/css/main.4328e7cb.css.map",
+    "main.a3305f9b.js.map": "/Retail_Mockup_for_Deploy/static/js/main.a3305f9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4328e7cb.css",
+    "static/js/main.a3305f9b.js"
+  ]
+}

@@ -28,13 +28,13 @@ const LineChart = ({ salesData }) => {
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    // define x axis: date of each week
+    // x axis: date of each week
     const x = d3
       .scaleTime()
       .domain(d3.extent(formattedSalesData, (sale) => sale.weekEnding))
       .range([0, width]);
 
-    // define y axis: retail sales of the week
+    // y axis: retail sales of the week
     const y = d3.scaleLinear().domain([0, 1000000]).range([height, 0]);
 
     const lineRetail = d3

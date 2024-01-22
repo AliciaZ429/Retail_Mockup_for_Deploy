@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import LineChart from "./charts/LineChart";
-import StackedBarChart from "./charts/StackedBarChart";
 import RetailSalesTable from "./charts/RetailSalesTable";
 import PieChart from "./charts/PieChart";
 
