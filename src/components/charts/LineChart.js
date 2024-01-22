@@ -9,8 +9,8 @@ const LineChart = ({ salesData }) => {
   }, [salesData]);
 
   const drawChart = () => {
-    const width = 600;
-    const height = 400;
+    const width = 500;
+    const height = 300;
     const margin = { top: 20, right: 20, bottom: 30, left: 50 };
 
     const svg = d3

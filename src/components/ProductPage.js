@@ -1,15 +1,13 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchProductData } from "../redux/productSlice";
-import LineChart from "./LineChart";
-import RetailSalesTable from "./RetailSalesTable";
+import MainContainer from "./MainContainer";
 import "./ProductPage.css";
 
 const ProductPage = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    console.log("Dispatching fetchProductData");
     dispatch(fetchProductData());
   }, [dispatch]);
 
@@ -23,18 +21,17 @@ const ProductPage = () => {
     return error;
   }
 
-  console.log("this is productdata", productData);
-
-  const { image, brand, title, tags } = productData[0];
+  const { image, brand, title, tags, subtitle } = productData[0];
 
   return (
-    <div>
+    <div id="body">
       <div style={{ display: "flex" }}>
         {/* Left Sidebar */}
-        <div style={{ width: "200px", marginRight: "20px" }}>
-          <img src={image} alt={title} style={{ width: "100%" }} />
-          <p>{brand}</p>
+        <div id="sidebar">
+          <img src={image} alt={title} />
           <h2>{title}</h2>
+          <p>{brand}</p>
+          <p>{subtitle}</p>
           <ul>
             {tags.map((tag, index) => (
               <li key={index}>{tag}</li>
@@ -43,9 +40,8 @@ const ProductPage = () => {
         </div>
 
         {/* Main Content */}
-        <div>
-          <LineChart salesData={productData[0].sales} />
-          <RetailSalesTable salesData={productData[0].sales} />
+        <div id="main-content">
+          <MainContainer productData={productData} />
         </div>
       </div>
     </div>
