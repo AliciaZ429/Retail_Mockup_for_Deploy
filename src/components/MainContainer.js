@@ -2,18 +2,19 @@ import React, { useRef } from "react";
 import LineChart from "./charts/LineChart";
 import StackedBarChart from "./charts/StackedBarChart";
 import RetailSalesTable from "./charts/RetailSalesTable";
+import PieChart from "./charts/PieChart";
 
 const MainContainer = ({ productData }) => {
   const containerRef = useRef(null);
 
   return (
-    <div ref={containerRef} id="charts-container">
-      <div id="chart-container">
-        <div id="linechart">
+    <div ref={containerRef} id="main-container">
+      <div id="charts-container">
+        <div className="chart" id="linechart">
           <LineChart salesData={productData[0].sales} />
         </div>
-        <div id="barchart">
-          <StackedBarChart salesData={productData[0].sales} />
+        <div className="chart" id="barchart">
+          <PieChart salesData={productData[0].sales} />
         </div>
       </div>
       <div id="table">

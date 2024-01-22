@@ -26,7 +26,6 @@ const ProductPage = () => {
   return (
     <div id="body">
       <div style={{ display: "flex" }}>
-        {/* Left Sidebar */}
         <div id="sidebar">
           <img src={image} alt={title} />
           <h2>{title}</h2>
@@ -39,7 +38,6 @@ const ProductPage = () => {
           </ul>
         </div>
 
-        {/* Main Content */}
         <div id="main-content">
           <MainContainer productData={productData} />
         </div>

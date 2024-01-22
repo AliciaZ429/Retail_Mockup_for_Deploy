@@ -1,7 +1,5 @@
 body {
   font-family: "Arial", sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 .container {
@@ -31,7 +29,7 @@ body {
 }
 
 #main-content {
-  flex: 1;
+  /* flex: 1; */
 }
 
 .table-container {
@@ -39,18 +37,26 @@ body {
   margin-right: 30px;
 }
 
-.charts-container {
+#charts-container {
+  margin-top: 30px;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+}
+
+.chart {
+  margin: 10px;
 }
 
 #linechart {
-  flex: 1;
   margin-right: 20px;
+  width: 50%;
 }
 
 #barchart {
-  width: 40%;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 #table {
