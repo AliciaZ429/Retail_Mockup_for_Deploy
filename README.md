@@ -37,7 +37,7 @@ Migrate to TS
 
 TS failed to launch very likely because of ts-node compatability. Created a new branch styling to continue.
 
-Finished two charts touch up and merged to dev, deleted styling
+Finished two charts touch up and merged to main, deleted styling
 
 01/21
 Deployed to github
